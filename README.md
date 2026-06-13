@@ -1,13 +1,12 @@
+# User_authentication.py
+
 password-manager/
-├── main.py
-├── users.json
+├── user_authentication.py
+├── user_info.json
 └── README.md
 
 --------------------------------------------------
-
-# Password Manager
-
-A simple Python password manager.
+# A simple Python User Authentication System that checks if the right user has the access
 
 Features:
 - Login
@@ -15,4 +14,7 @@ Features:
 - JSON Storage
 
 Installation:
-...
+- You must install Python 3 on your computer
+- and also install VS code
+- open this file on VS code or right click to open with VS code
+  

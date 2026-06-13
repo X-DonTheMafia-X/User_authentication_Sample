@@ -26,7 +26,7 @@ def register():
 
 
 def save_info(u_info):
-    with open('user_info.txt', mode='w') as file_writer:
+    with open('user_info.json', mode='w',encoding="utf-8") as file_writer:
         json.dump(u_info, file_writer, indent=2)
 
     print("Your registration is completed.\n")
@@ -36,7 +36,7 @@ def verify(uname, pw):
     global flag
 
     try:
-        with open('user_info.txt', mode='r') as file_reader:
+        with open('user_info.json', mode='r',encoding="utf-8") as file_reader:
             user = json.load(file_reader)
 
         if user['username'] == uname and user['password'] == pw:

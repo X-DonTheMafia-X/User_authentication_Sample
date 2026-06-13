@@ -1,6 +1,6 @@
 # User_authentication.py
 
-password-manager/
+User_authentication_Sample/
 ├── user_authentication.py
 ├── user_info.json
 └── README.md
